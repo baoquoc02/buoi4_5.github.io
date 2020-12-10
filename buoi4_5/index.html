@@ -1,0 +1,260 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Bao Quoc</title>
+	<link rel="stylesheet" href="css/css.css">
+	<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+	
+</head>
+	
+<!--	font-->
+	
+<body>
+<!--	header-->
+	<input type="button" id="button" value="top" onClick="topFunction()">
+	<section class="header">
+		<h1>I'm <span class="element"></span></h1>
+		<div class="social">
+			<a href="#"><i class="fab fa-facebook-f"></i></a>
+			<a href="#"><i class="fab fa-twitter"></i></a>
+			<a href="#"><i class="fab fa-instagram"></i></a>
+			<a href="#"><i class="fab fa-google-plus-g"></i></a>
+			<a href="#"><i class="fab fa-behance"></i></a>
+		</div>
+	</section>
+<!--	about-->
+	<section class="about" >
+		<figure data-aos="fade-up">
+			<img src="img/ivana-cajina-dnL6ZIpht2s-unsplash.jpg" alt="avata">
+		</figure>
+		<div class="text_about" data-aos="fade-up" >
+			<h1>I am Dev and Creative</h1>
+			<br>
+			<p>Impossible considered invitation him men instrument saw celebrated unpleasant. Put rest and must set kind next many near nay. He exquisite continued explained middleton am. Voice hours young woody has she think equal. Estate moment he at on wonder at season little. Six garden result summer set family esteem nay estate.
+			<br><br>
+			Her extensive perceived may any sincerity extremity. Indeed add rather may pretty see. Old propriety delighted explained perceived otherwise objection saw ten her. Doubt merit sir the right these alone keeps. By sometimes intention smallness he northward.</p>
+		</div>
+	</section>
+<!--	icon-->
+	<section class="icon" >
+<!--		GRAPHIC DESIGNER-->
+		<div class="GRAPHIC_DESIGNER">
+			<i class="fas fa-desktop"></i>
+			<br>
+			<br>
+			<h4>GRAPHIC DESIGNER</h4>
+			<br>
+			<p>Her extensive perceived may any sincerity extremity.</p>
+		</div>
+<!--		PHOTOGRAPHY-->
+		<div class="PHOTOGRAPHY">
+			<i class="fas fa-camera"></i>
+			<br>
+			<br>
+			<h4>PHOTOGRAPHY</h4>
+			<br>
+			<p>Her extensive perceived may any sincerity extremity.</p>
+		</div>
+<!--		DEVELOPMENT-->
+		<div class="DEVELOPMENT">
+			<i class="far fa-circle"></i>
+			<br>
+			<br>
+			<h4>DEVELOPMENT</h4>
+			<br>
+			<p>Her extensive perceived may any sincerity extremity.</p>
+		</div>
+<!--		CUSTOMIZATION-->
+		<div class="CUSTOMIZATION">
+			<i class="fas fa-cog"></i>
+			<br>
+			<br>
+			<h4>CUSTOMIZATION</h4>
+			<br>
+			<p>Her extensive perceived may any sincerity extremity.</p>
+		</div>
+	</section>
+<!--	menu-->
+		<!-- Control buttons -->
+	<div id="myBtnContainer">
+		<h1>PORTFOLIO</h1>
+		<br>
+	  <button class="btn active" onclick="filterSelection('All')">All</button>
+	  <button class="btn" onclick="filterSelection('Web Design')">Web Design</button>
+	  <button class="btn" onclick="filterSelection('Application')"> Application</button>
+	  <button class="btn" onclick="filterSelection('Development')"> Development</button>
+	</div>
+		<br>
+
+	<!-- The filterable elements. Note that some have multiple class names (this can be used if they belong to multiple categories) -->
+	<div class="container">
+	  <div class="filterDiv Web Design" data-aos="fade-up"><img src="img/work-4.jpg" style="width: 100%" alt="7"></div>
+	  <div class="filterDiv Application" data-aos="fade-up"><img src="img/work-5.jpg" style="width: 100%" alt="8"></div>
+	  <div class="filterDiv Application" data-aos="fade-up"><img src="img/work-2.jpg" style="width: 100%" alt="9"></div>
+	  <div class="filterDiv Application" data-aos="fade-up"><img src="img/tải xuống.jfif" style="width: 100%" alt="10"></div>
+	  <div class="filterDiv Development" data-aos="fade-up"><img src="img/work-1.jpg" style="width: 100%" alt="11"></div>
+	  <div class="filterDiv Development" data-aos="fade-up"><img src="img/work-3.jpg" style="width: 100%" alt="12"></div>
+	</div>
+	
+<!--	get_in_touch-->
+	
+	<section class="get_in_touch">
+	  <h1>GET IN TOUCH</h1>
+		<br>
+	  <p>Out believe has request not how comfort evident. Up delight cousins we feeling<br>
+		minutes. Genius has looked end piqued spring.</p>
+		<br><br><br>
+<!--		khung_tron1-->
+		<div class="khung_tron1" data-aos="fade-up">
+			<div class="tron1">
+				<i class="fas fa-phone-alt"></i>
+			</div>
+			<p>0963 - 414 - 480</p>
+		</div>
+<!--		khung_tron2-->
+		<div class="khung_tron2" data-aos="fade-up">
+			<div class="tron2">
+				<i class="fas fa-map-marker-alt"></i>
+			</div>
+			<p>Ho Chi Minh City, Viet Nam</p>
+		</div>
+<!--		khung_tron3-->
+		<div class="khung_tron3" data-aos="fade-up">
+			<div class="tron3">
+				<i class="fas fa-envelope"></i>
+			</div>
+			<p>hoainhan.dev@gmail.com</p>
+		</div>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<div class="contact"  data-aos="fade-up">
+			<input type="text" placeholder="Name" class="name">
+			<input type="email" placeholder="Email" class="email">
+			<textarea placeholder="Message" class="message"></textarea>
+		</div>
+		<input type="submit" value="SEND A MESSAGE" class="send"  data-aos="fade-up">
+	</section>
+	
+<!--	footer-->
+	
+	<footer>
+		<a href="#"><i class="fab fa-facebook-f"></i></a>
+		<a href="#"><i class="fab fa-twitter"></i></a>
+		<a href="#"><i class="fab fa-instagram"></i></a>
+		<a href="#"><i class="fab fa-google-plus-g"></i></a>
+		<a href="#"><i class="fab fa-behance"></i></a>
+		<p>Copyright © 2020 Nhan Huynh</p>
+	</footer>
+<!--	script-->
+<!--	script-->
+<!--	script-->
+<!--	script-->
+<!--	script-->
+<!--	script-->
+<!--	script-->
+	<script>
+		filterSelection("all")
+function filterSelection(c) {
+  var x, i;
+  x = document.getElementsByClassName("filterDiv");
+  if (c == "all") c = "";
+  // Add the "show" class (display:block) to the filtered elements, and remove the "show" class from the elements that are not selected
+  for (i = 0; i < x.length; i++) {
+    w3RemoveClass(x[i], "show");
+    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+  }
+}
+
+// Show filtered elements
+function w3AddClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    if (arr1.indexOf(arr2[i]) == -1) {
+      element.className += " " + arr2[i];
+    }
+  }
+}
+
+// Hide elements that are not selected
+function w3RemoveClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    while (arr1.indexOf(arr2[i]) > -1) {
+      arr1.splice(arr1.indexOf(arr2[i]), 1);
+    }
+  }
+  element.className = arr1.join(" ");
+}
+
+// Add active class to the current control button (highlight it)
+var btnContainer = document.getElementById("myBtnContainer");
+var btns = btnContainer.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function() {
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}
+	</script>
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script>
+  AOS.init();
+</script>
+	<!--	button-->
+	<!--	button-->
+	<!--	button-->
+	<!--	button-->
+	<!--	button-->
+	<!--	button-->
+	<!--	button-->
+	<!--	button-->
+	<script>
+		//Get the button:
+		mybutton = document.getElementById("button");
+
+		// When the user scrolls down 20px from the top of the document, show the button
+		window.onscroll = function() {scrollFunction()};
+
+		function scrollFunction() {
+		  if (document.body.scrollTop > 900 || document.documentElement.scrollTop > 900) {
+			mybutton.style.display = "block";
+		  } else {
+			mybutton.style.display = "none";
+		  }
+		}
+
+		// When the user clicks on the button, scroll to the top of the document
+		function topFunction() {
+		  document.body.scrollTop = 0; // For Safari
+		  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+		}
+	</script>
+	<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+	<script>
+		var options = {
+		  strings: ['aaaaaaa','designer'],
+		  typeSpeed: 10,
+		  fadeOut: true,
+    	  loop: true
+		};
+
+		var typed = new Typed('.element', options);
+	</script>
+</body>
+</html>
